@@ -11,7 +11,7 @@ BOT_NAME = 'fotomen'
 SPIDER_MODULES = ['fotomen.spiders']
 NEWSPIDER_MODULE = 'fotomen.spiders'
 
-ITEM_PIPELINES = ['scrapy.contrib.pipeline.images.ImagesPipeline']
+ITEM_PIPELINES = ['fotomen.images.MyImagesPipeline']
 IMAGES_STORE = '/Users/windwild/Code/project/fotomen/images/'
 
 
