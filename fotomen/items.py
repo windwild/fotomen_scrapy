@@ -9,7 +9,7 @@ class FotomenItem(Item):
     # define the fields for your item here like:
     # name = Field()
     title = Field()
-    link = Field()
-    
+    url = Field()
+    image_urls = Field()
 
     pass

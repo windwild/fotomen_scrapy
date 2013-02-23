@@ -11,5 +11,9 @@ BOT_NAME = 'fotomen'
 SPIDER_MODULES = ['fotomen.spiders']
 NEWSPIDER_MODULE = 'fotomen.spiders'
 
+ITEM_PIPELINES = ['scrapy.contrib.pipeline.images.ImagesPipeline']
+IMAGES_STORE = '/Users/windwild/Code/project/fotomen/images/'
+
+
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'fotomen (+http://www.yourdomain.com)'

@@ -5,4 +5,6 @@
 
 class FotomenPipeline(object):
     def process_item(self, item, spider):
+        ITEM_PIPELINES = ['scrapy.contrib.pipeline.images.ImagesPipeline']
+        IMAGES_STORE = '/Users/windwild/Code/project/fotomen/images'
         return item
